@@ -4,6 +4,9 @@ const Schema = mongoose.Schema;
 // Define collection and schema
 
 let Employee = new Schema({
+    id: {
+        type: String
+    },
     name: {
         type: String
     },
